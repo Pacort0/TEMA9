@@ -39,9 +39,7 @@ public class Ejercicio05 {
 				}
 				break;
 			case 3:
-				for (int i = 0; i < productos.size(); i++) {
 					System.out.println(productos);
-				}
 				break;
 			case 4:
 				System.out.println("Hasta luego.");
@@ -49,7 +47,7 @@ public class Ejercicio05 {
 			default:
 				System.err.println("Esa opción no está contemplada");
 			}
-		} while (opcion != 0);
+		} while (opcion != 4);
 		
 		sc.close();
 
