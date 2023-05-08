@@ -1,16 +1,15 @@
 package ejercicios;
 
-import java.util.LinkedHashSet;
 import java.util.Scanner;
+import java.util.TreeSet;
 
-public class Ejercicio02 {
-	
+public class Ejercicio03 {
+
 	public static void main(String[] args) {
 		String nombres = "";
 
 		Scanner sc = new Scanner(System.in);
-
-		LinkedHashSet<String> listaNombres = new LinkedHashSet<>();
+		TreeSet<String> listaNombres = new TreeSet<>();
 		while (!nombres.equalsIgnoreCase("fin")) {
 			do {
 				System.out.println("Introduzca un nombre: ");
@@ -26,4 +25,5 @@ public class Ejercicio02 {
 
 		sc.close();
 	}
+
 }
