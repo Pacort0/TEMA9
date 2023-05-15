@@ -1,21 +1,19 @@
 package ejercicios;
 
-import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.TreeSet;
 
 public class Ejercicio01 {
 
 	public static void main(String[] args) {
 		int numero;
 		
-		ArrayList<Integer> listaNums = new ArrayList<>(20);
+		TreeSet<Integer> listaNums = new TreeSet<>();
 		for (int i = 0; i < 20; i++) {
 			do {
 				numero = ((int) (Math.random() * 100));
 			} while (listaNums.contains(numero));
 			
 			listaNums.add(numero);
-			listaNums.sort(Comparator.naturalOrder());
 			;
 		}
 		System.out.println(listaNums);
