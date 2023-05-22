@@ -14,7 +14,6 @@ public class Ejercicio01 {
 			} while (listaNums.contains(numero));
 			
 			listaNums.add(numero);
-			;
 		}
 		System.out.println(listaNums);
 	}
